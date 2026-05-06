@@ -81,7 +81,7 @@ public class FileDataWriter {
     public static void writeDataToFile(String text, String fileLocation){
         try (FileOutputStream outputStream = new FileOutputStream(fileLocation)) {
 
-        }catch (IOException e){
+        }catch (IOExcepti e){
             e.print
         }
     }
