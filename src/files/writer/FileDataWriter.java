@@ -78,7 +78,7 @@ public class FileDataWriter {
         return value.length();
     }
 
-    c static void writeDataToFile(String text, String fileLocation){
+    static void writeDataToFile(String text, String fileLocation){
         try (FileOutputStream outputStream = new FileOutputStream(fileLocation)) {
 
         }catch (IOException e){
