@@ -78,7 +78,7 @@ public class FileDataWriter {
         return value.length();
     }
 
-    ile(String text, String fileLocation){
+    (String text, String fileLocation){
         try (FileOutputStream outputStream = new FileOutputStream(fileLocation)) {
 
         }catch (IOException e){
