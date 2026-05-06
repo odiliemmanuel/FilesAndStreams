@@ -78,7 +78,7 @@ public class FileDataWriter {
         return value.length();
     }
 
-    aToFile(String text, String fileLocation){
+    oFile(String text, String fileLocation){
         try (FileOutputStream outputStream = new FileOutputStream(fileLocation)) {
 
         }catch (IOException e){
