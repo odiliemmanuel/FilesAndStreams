@@ -77,7 +77,7 @@ public class FileDataWriter {
         return value.length();
     }
 
-    publi
+    public static void 
 }
 
 
