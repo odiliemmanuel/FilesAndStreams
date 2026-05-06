@@ -82,7 +82,7 @@ public class FileDataWriter {
         try (FileOutputStream outputStream = new FileOutputStream(fileLocation)) {
 
         }catch (IOException e){
-            e.printStac
+            e.printSt
         }
     }
 }
