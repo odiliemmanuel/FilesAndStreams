@@ -78,7 +78,7 @@ public class FileDataWriter {
         return value.length();
     }
 
-    ring fileLocation){
+    fileLocation){
         try (FileOutputStream outputStream = new FileOutputStream(fileLocation)) {
 
         }catch (IOException e){
