@@ -78,7 +78,7 @@ public class FileDataWriter {
         return value.length();
     }
 
-    riteDataToFile(String text, String fileLocation){
+    teDataToFile(String text, String fileLocation){
         try (FileOutputStream outputStream = new FileOutputStream(fileLocation)) {
 
         }catch (IOException e){
