@@ -78,8 +78,11 @@ public class FileDataWriter {
         return value.length();
     }
 
-    public static void writeDataToFile(String text, String fileLocation){
+    public static void writeDataToFile(String data, String fileLocation){
         try (FileOutputStream outputStream = new FileOutputStream(fileLocation)) {
+
+            byte[] bytes = data.getBytes();
+            outputStream.write(bytes);
 
         }catch (IOException e){
             e.printStackTrace();
