@@ -77,7 +77,7 @@ public class FileDataWriter {
         return value.length();
     }
 
-    public static void writeDataToFile()
+    public static void writeDataToFile(String text, String fileLocation){}
 }
 
 
