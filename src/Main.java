@@ -1,18 +1,16 @@
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.util.Collections;
+import java.util.List;
 
 
-
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
-        String fileLocation = "/a/b/c/../e/f";
-        Path path = Paths.get(fileLocation);
+//        ConsoleDataReader.readData();
+       List<Integer> numbers = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
-        System.out.println(path.getFileSystem());
-        System.out.println(path);
+        int position = Collections.binarySearch(numbers, 10);
+
+        System.out.println(position);
 
 
     }
